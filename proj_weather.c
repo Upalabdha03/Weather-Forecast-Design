@@ -55,13 +55,13 @@ void addWeather(struct weather *weathers, int *count) {
     printf("Enter date (DD/MM/YYYY): ");
     scanf("%s", newWeather.date);
 
-    printf("Enter temperature: ");
+    printf("Enter temperature in degree Celsius: ");
     scanf("%f", &newWeather.temperature);
 
-    printf("Enter humidity: ");
+    printf("Enter humidity in %: ");
     scanf("%f", &newWeather.humidity);
 
-    printf("Enter pressure: ");
+    printf("Enter pressure in Hg: ");
     scanf("%f", &newWeather.pressure);
 
     weathers[*count] = newWeather;
